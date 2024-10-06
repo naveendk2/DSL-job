@@ -7,7 +7,7 @@ job('testing1') {
         cron('H/5 * * * *')
     }
     steps {
-        shell('echo "Hello, Testing1!"')
+        shell('echo "this is naveen"')
     }
 }
 
