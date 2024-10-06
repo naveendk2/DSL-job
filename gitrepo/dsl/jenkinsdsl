@@ -4,7 +4,7 @@ job('testing1') {
         git('https://github.com/your-repo.git')
     }
     triggers {
-        cron('H/5 * * * *')
+        cron('H/1 * * * *')
     }
     steps {
         shell('echo "this is naveen"')
